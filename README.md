@@ -56,7 +56,7 @@ This repository contains my solutions to all of the exercises from the book "Fun
 * CHAPTER 10: PROGRAMMING LANGUAGES AND PROGRAMMING METHODS
   * 10.1 On Clarity of Expressions
   * 10.2 On Data Domains
-  * 10.3 THe Dominant Assignment
+  * 10.3 The Dominant Assignment
 * CHAPTER 11: A FUNCTIONAL PROGRAMMING KIT
   * 11.1 The List Space
   * 11.2 The Principal Control Operation 
@@ -71,4 +71,4 @@ This repository contains my solutions to all of the exercises from the book "Fun
   * 12.2 The Garbage Collector
   * 12.3 The String Store
   * 12.4 Building and Testng a Lispkit System
-  * 12. 5 Bootstrapping and Optimization
+  * 12.5 Bootstrapping and Optimization
