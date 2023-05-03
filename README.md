@@ -1,4 +1,4 @@
-# Functional_Programming_Application_and_Implemenation
+# Functional_Programming_Application_and_Implementation
 This repository contains my solutions to all of the exercises from the book "Functional Programming Application and Implementation" by Peter Henderson. This is my second personal project for summer 2023 break.
 
 ## Who am I?
