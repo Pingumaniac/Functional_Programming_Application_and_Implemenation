@@ -1,6 +1,6 @@
 # Notes
 
-S-expressions -> used for the expression of functional programs
+### S-expressions -> used for the expression of functional programs
 
 1. Parentheses is used
 2. Constructed from elementary items called atoms
@@ -11,6 +11,9 @@ S-expressions -> used for the expression of functional programs
 7. When writing a program probably the first consideration we will make is how our data are going to fit into the format of S-expressions.
 8. Some primitive functions for dismantling and reassembling them are introduced to manipulate S-expressions.
 9. In order to be able to process list of varying structure, it is necessary to be able to test S-expression values to determine (a) whether they are atoms or lists, and (b) whether they are equal.
-10. Predicate -> returns true or false
-11. Predicate can be used to test the symbolic value before we apply a function to it which would otherwise be undefined.
-12. 
+
+### About Predicate
+1. Predicate -> returns true or false
+2. Predicate can be used to test the symbolic value before we apply a function to it which would otherwise be undefined.
+
+* The calls of cons can be expensive.
