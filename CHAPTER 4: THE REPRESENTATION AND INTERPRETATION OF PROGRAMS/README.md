@@ -1,1 +1,3 @@
+# Notes
 
+"The function apply(f, x) will of course have to analyze the structure of the program f in order to compute the value of f applied to x, and it is for this reason that it is called an interpreter (or interpreting function). In a very real sense this interpreter specifies the semantics of the language (Lisp) in which f is written. The real sense is clear when we realize that these semantics can be changged by very simple adjustments to the definition of apply. We shall return to the discussion of quite what is and what is not specified by an interpreter, when we have completed the definition of apply(f, x). (95)"
