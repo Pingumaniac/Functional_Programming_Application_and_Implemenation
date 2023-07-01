@@ -29,3 +29,10 @@
 14. *EQ* - apply eq predicate to top two stack items
 15. *ADD* *SUB* *MUL* *DIV* *REM* *LEQ* - apply arithmetic operation to top two stack items
 16. *STOP* - stop
+
+## Some points about exec(compile(f), a))
+
+1. "The definition is preise about important features of the language. For example, the parameter mechanism defined is what is usually referred to as call by value. (192)"
+2. "Many well-formed expressions are given a meaning where none is intended. For example, function calls with too many actual parameters. (192)"
+3. "Some well-formed expressions are not given a meaning where one is possible. For example, the partial definition of LETREC. (192)"
+4. "Some special cases of well-formed expressions, whose meaning we might not consider intuitive, are given a reasonable or acceptable meaning by this definition. For example, a function with no parameters. (192)"
