@@ -1,1 +1,5 @@
 # Notes
+
+"In more complex problems, where the non-determinism is introducted in many places, the direct formulation in terms of non-deterministic primitives will have a substantial advantage over the explicit programming of backtracking. The advantage derives from the ability to think in terms of arbitrary choice but to know that the most advantageous choice will be made. This is a powerful paradigm and one which is easily forgotten when one has to program the necessary searches oneself.
+
+The price we pay for this greater expressive power is... the importance property of substitutivity. Since expressons in the functional language may now invoke arbitrary choice we can, for example, no longer be certain that some such expression as f(x)-f(x) will be zero. Thus, reasoning about such programs requires a different set of premisses from those used for purely deterministic programs. Whether this price is too great, and that the apparently simpler expressions of algorithms is in fact just an illusion which may trap us into false reasoning and then incorrect designs, can only be judged in the light of the reader's own experience. (211)"
