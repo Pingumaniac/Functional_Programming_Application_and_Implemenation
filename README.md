@@ -65,7 +65,7 @@ This repository contains my solutions to exercises in Scheme from the book "Func
   * 11.5 The Output of S-expressions
   * 11.6 The Output of Tokens
   * 11.7 The Conversion Routines
-  * 11.8 THe Execution Cycle
+  * 11.8 The Execution Cycle
 * CHAPTER 12: BASIC MACHINE SUPPORT FOR THE FUNCTIONAL PROGRAMMING KIT
   * 12.1 Storage for Lists
   * 12.2 The Garbage Collector
