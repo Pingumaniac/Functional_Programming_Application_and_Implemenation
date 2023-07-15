@@ -21,7 +21,7 @@
                   (samefringe (cdr m) (cdr n))
                   #f))))))  
 
-(samefringe '(1 (2 3) 4) '(1 (2 3) 4))
-
+(samefringe '(1 (2 3) 4) '(1 (2 3) 4)) ; returns #t
+(samefringe '(1 (2 3) 4) '(1 (2 3) 4 5)) ; returns #f
       
           
