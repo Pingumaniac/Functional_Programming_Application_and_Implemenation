@@ -1,5 +1,6 @@
 #lang racket
 
+; Converted into Racket
 (define (first x)
   (car x))
 (define (second x)
