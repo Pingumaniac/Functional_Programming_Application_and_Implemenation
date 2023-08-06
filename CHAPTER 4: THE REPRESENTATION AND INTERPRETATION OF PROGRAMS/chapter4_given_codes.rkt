@@ -57,7 +57,6 @@
      (let ((c (eval (car e) n v))
            (z (evlis (cdr e) n v)))
        (eval (cdar c) (cons (caar c) (cadr c)) (cons z (cddr c)))))))
-
 (define (apply f x)
   (let ((c (eval f '() '())))
     (eval (cdar c) (cons (caar c) (cadr c)) (cons x (cddr c)))))
