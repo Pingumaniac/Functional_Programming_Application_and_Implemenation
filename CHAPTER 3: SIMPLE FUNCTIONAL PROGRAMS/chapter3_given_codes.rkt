@@ -1,5 +1,6 @@
 #lang racket
 
+; Converted into Racket
 (define (atom? x)
   (not (pair? x)))
 (define (assoc v a)
