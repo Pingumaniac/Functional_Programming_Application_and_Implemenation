@@ -1,5 +1,6 @@
 #lang racket
 
+; Converted into Racket
 (define (isvar e)
   (eq? (car e) 'VAR))
 (define (name e)
