@@ -39,6 +39,7 @@
       'undefined
       `(IF ,(caar clauses) ,(cadar clauses) ,(cond->if (cdr clauses)))))
 
+; ex 4.6
 (define (substitute e old new)
   (cond
     ((null? e) '())
@@ -72,6 +73,7 @@
            (z (evlis (cdr e) n v)))
        (eval (cdar c) (cons (caar c) (cadr c)) (cons z (cddr c)))))))
 
+; ex 4.6
 (define (apply f args)
   (let ((body (cadr f))
         (params (car (cadr f))))
