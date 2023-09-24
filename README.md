@@ -1,5 +1,5 @@
 # Functional_Programming_Application_and_Implementation
-This repository contains my solutions to exercises in Scheme from the book "Functional Programming Application and Implementation" by Peter Henderson.
+This repository contains my solutions to exercises in Racket from the book "Functional Programming Application and Implementation" by Peter Henderson.
 
 ## Who am I?
 #### Young-jae Moon
